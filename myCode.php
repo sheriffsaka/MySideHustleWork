@@ -33,6 +33,12 @@
     echo "The sum of the numbers = ".$sum;
     echo "<br />";
 
+    /* This is long list comment lines
+    Everything in this section is a comment.
+    It can be used to explain the codes one has written.
+
+    */
+
     
         
     
