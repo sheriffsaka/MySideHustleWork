@@ -10,17 +10,21 @@
     echo "<br />";
    
     echo "The answer = ";
-        foreach(range($start = 1, $end = 10, 1) as $rangeOfNumber){
+    function task1($start, $end){
+        foreach(range($start, $end, 1) as $rangeOfNumber){
             
             echo "$rangeOfNumber,";
         }
+    }
+
+    task1(1, 10);
     echo "<br />";
     
    
     echo "<p>";
     echo "QUESTION 2: write a sum function that takes an array of numbers and returns the sum of these numbers";
     echo "<br>";
-
+    
     $testArray = array(1, 5, 10, 20, 30);
     $sum = array_sum($testArray);
     //echo $sum;
